@@ -1,5 +1,6 @@
 [Codecov][1] PHP Example
 ========================
+[![Build Status](https://travis-ci.org/dedevillela/example-php.svg?branch=master)](https://travis-ci.org/dedevillela/example-php)
 
 1. Collect coverage reports `vendor/bin/phpunit --coverage-clover=coverage.xml`, [see here][2]
 2. Call `bash <(curl -s https://codecov.io/bash)` at the end of your CI build, [see here][3]
